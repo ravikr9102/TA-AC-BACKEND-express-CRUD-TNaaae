@@ -16,7 +16,7 @@ router.get('/',(req,res) => {
 
 router.get('/:id',(req,res) => {
     res.render('studentDetail',{student: {name: "rahul", email: "rahul@altcampus.io"},
-})
-})
+});
+});
  
 module.exports = router;
